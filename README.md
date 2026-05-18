@@ -1,19 +1,17 @@
 # Implementation of REST API 
 
-This is a simple REST API Framework project using Django for creating and managing posts using API endpoints.
+This is a simple REST API Framework project using Django for creating and managing Users using API endpoints.
 
 ## Features
-- Create posts
-- View post list
+- Create User
+- View User list
 - User authentication
-- update posts
-- Delete posts
+- update User
+- Delete User
 - Created by field
 - Browsable API
-- Filters function
-- permissions function
 - serializers function
-- Editing posts
+- Editing User
 
 ## Softwares used
 - Python
@@ -61,36 +59,36 @@ GET/admin/
 
 ### Get All Posts
 '''
-GET/posts/
+GET/Users/
 '''
 
 ### Create post
 '''
-POST/posts/
+POST/Users/
 '''
 
 ### Get single post
 '''
-GET/posts/<id>/
+GET/Users/<id>/
 '''
 
 ### Update post
 '''
-PUT/posts<id>/
+PUT/Users<id>/
 '''
 
 ### Delete post
 '''
-DELETE/posts/<id>/
+DELETE/Users/<id>/
 
 ## Example Response
 '''
 {
-   "id": 1,
-   "title": "My First Post",
-   "content": "Hello Django REST Framework",
-   "created_on": "Date and time",
-   "created_by": 1
+   "usernsme": "abc",
+   "Password": "#########",
+   "email": "abc@gmail.com",
+   "bio": "About me",
+   "date_joined": Date and time
 }
 '''
 ## Author
